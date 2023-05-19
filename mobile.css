@@ -1,0 +1,492 @@
+@charset "UTF-8";
+* {-webkit-font-smoothing: antialiased;}
+@font-face {
+  font-family: 'WindRose2';
+  src: url('fonts/WindRose2.woff');
+}
+@font-face {
+  font-family: 'elegance';
+  src: url('fonts/Rounded_Elegance.woff');
+}
+@font-face {
+  font-family: 'dragon';
+  src: url('fonts/dragon.woff');
+}
+body{
+    background-image: url(img/back.jpg);
+    background-size: 220%;
+    background-position: bottom;
+    background-attachment: fixed;
+    margin:0 auto;
+	background-color:#fffdf8;
+	font-family:"WindRose2";
+	color:#999999;
+	font-size:24pt;
+}
+h2{
+    margin: 2px;
+    color: #555;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+a:hover{
+	text-decoration:underline;
+}
+.main{
+	margin:0 auto;
+	width: 100%;
+	padding-bottom:30px;
+    padding-top: 20px;
+    background-color: #fffdf8;
+    background-image: url(img/texture.jpg);
+}
+.indexmain{
+    height: auto;
+}
+.gallerymain{
+    /*height: 3000px;*/
+	height: auto;
+    overflow: auto;
+}
+.contattimain{
+    height: 1000px;
+}
+.main2{
+	margin:0 auto;
+	width: 100%;
+    background-image:none;
+    background-color:#fbf8f0;
+	padding-bottom:30px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px -3px #aaa;
+    font-family: "arial";
+    color:#555;
+}
+.main2 a{
+    text-decoration: underline;
+    font-style: normal;
+    color: #b51638;
+    font-size: 34pt;
+}
+.main2 a:hover{
+    text-decoration: none;
+}
+.main2 img{
+    width: 700px;
+}
+.banner{
+    background-color: white;
+    height: 30px;
+}
+.slider{
+    background-image: url(img/wed.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 180%;
+	margin:0 auto;
+	width: 100%;
+	height: 600px;
+	text-align:center;
+    position: relative;
+    overflow: hidden;
+}
+.tape1{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.41+0,0.83+54,0.89+100;White+to+Transparent */
+background: -moz-linear-gradient(left,  rgba(255,250,238,0.3) 0%, rgba(255,250,238,0.4) 40%,  rgba(255,250,238,0.8) 70%, rgba(255,250,238,0.89) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,250,238,0.3) 0%, rgba(255,250,238,0.4) 40%, rgba(255,250,238,0.8) 70%,rgba(255,250,238,0.89) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to left,  rgba(255,250,238,0.3) 0%, rgba(255,250,238,0.4) 35%, rgba(255,250,238,0.9) 50%, rgba(255,250,238,1) 60%, rgba(255,250,238,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69ffffff', endColorstr='#e3ffffff',GradientType=1 ); /* IE6-9 */
+
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 100px;
+    border: 2px dotted #999;
+    border-left: none;
+    border-right: none;
+}
+.tape1 p{
+    position: absolute;
+    left: 250px;
+    bottom: -10px;
+    width: 450px;
+    font-family:"WindRose2";
+    font-size: 28px;
+    color: #333;
+    position: absolute;
+}
+.bigger{
+    font-family: "dragon";
+    font-size: 130px;
+    line-height: 20px;
+}
+.tape2{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.75+0,0.91+18,0.33+100 */
+background: -moz-linear-gradient(top,  rgba(255,250,238,0.75) 0%, rgba(255,250,238,0.91) 50%, rgba(255,250,238,0.33) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,250,238,0.75) 0%,rgba(255,250,238,0.91) 50%,rgba(255,250,238,0.33) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,250,238,0.75) 0%, rgba(255,250,238,0.91) 50%,rgba(255,250,238,0.33) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#54ffffff',GradientType=0 ); /* IE6-9 */
+
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    color: #555;
+    font-size: 20px;
+    border: 2px dotted #999;
+    border-top: none;
+    border-bottom: none;
+}
+.nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fffdf8;
+    height: 145px;
+	font-size:40pt;
+	text-align:center;
+    font-family:"WindRose2";
+    background-color: #fffdf8;
+    background-image: url(img/texture.jpg);
+}
+.nav img{
+    display: none;
+}
+.nav a{
+    color: #777;
+    height: 50px;
+}
+.nav a:hover{
+    text-decoration: none;
+    color: #555;
+}
+.navcontainer{
+    background-image: none;
+    margin-top: 30px;
+    padding-top: 2px;
+}
+.top_video{
+	margin:0 auto 20px;
+	width: 100%;
+	height: auto;
+	text-align:center;
+    position: relative;
+    overflow: hidden;
+}
+.top_video video {
+	width: 100%;
+	height: auto;
+	margin:0 auto
+}
+.top_video p {
+	display: block;
+	width: 300px;
+}
+.top_video a {
+	font-family: 'elegance';
+	font-size: 40px;
+	font-weight: bold;
+	color:brown;
+	width: 300px;
+}
+.top_slide {
+	margin:0 auto 10px;
+	width: 100%;
+}
+.top_slide p {
+	display: block;
+	width: 300px;
+}
+.top_slide a {
+	font-family: 'elegance';
+	font-size: 40px;
+	font-weight: bold;
+	color:brown;
+	width: 300px;
+}
+ul.slick01{
+	padding-left: 0;
+}
+.slick-prev, .slick-next {
+	width: 80px !important;
+	height: 80px !important;
+}
+.slick-next {
+    right: 20px !important;
+}
+.slick-prev:before,
+.slick-next:before {
+    font-size: 80px !important;
+}
+.slick-list {
+	margin: 0 0 60px !important;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -70px !important;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 30px 0 30px !important;
+    width: 100%;
+}
+.slick-dots li {
+	position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 20px !important;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button:before {
+	font-size: 24px !important;
+}
+
+.wrapper {
+	margin: 0 auto;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    margin:0 auto 20px;
+    width: 90%;
+    background-color: #fbf8f0;
+    border: 2px dotted #d9d9d9;
+    text-align: left;
+    padding: 3%;
+    color: #555;
+    font-family: 'elegance';
+    position: relative;
+    float: none;
+    font-size: 14pt;
+}
+.container img{
+    width: 99%;
+    opacity: 1;
+}
+.containermedia{
+    display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+.foto{
+	display: flex; 
+	justify-content: space-between; 
+	height: 170px;
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto 10px;
+    /*position: relative;*/
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+.foto:hover{
+    opacity: 1;
+}
+.foto img{
+    /*position:absolute;*/
+    width: 70px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    z-index: 50;
+    cursor: pointer;
+}
+.foto img:hover{
+    width: 110px;
+}
+.play {
+	height:auto;
+	width: 90%;
+    padding: 5px;
+    margin: 0 auto 10px;
+    /*position: relative;*/
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+.container2l{
+    width: 93%;
+    height: 400px;
+    display: inline-table;
+    padding: 15px;
+    font-size: 32pt;
+    text-align: center;
+}
+.container2l .flex {
+	display: flex;
+	justify-content: space-between;
+}
+.container2l .flex img{
+	width: 98%;
+}
+.container2l p{
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 16px;
+    padding-left: 20px;
+}
+.container2r{
+    width: 93%;
+    height: 400px;
+    display: inline-table;
+    padding: 15px;
+    font-size: 32pt;
+    text-align: center;
+}
+.container2r p{
+    font-style: italic;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 16px;
+    padding-right: 20px;
+}
+.mybold{
+    background-color: rgba(250, 210, 0, 0.3);
+    font-weight: 500;
+    color: #222;
+}
+.foot{
+    margin:0 auto;
+    height: 200px;
+	text-align:center;
+	font-size:28pt;
+    color: #d9d9d9;
+}
+.logo{
+    width: 90px;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    z-index: 50;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex .collaboratori,
+.flex .collaboratori2{
+	width: 90%;
+	margin: 0 auto 10px;
+}
+.flex .collaboratori p,
+.flex .collaboratori2 p{
+	margin: -10px 0 0;
+	font-size:28pt;
+	text-align: center;
+}
+.flex .collaboratori .name,
+.flex .collaboratori2 .name{
+	font-size: 2.4em;
+}
+
+
+.gold {
+	color:#A48901;
+}
+.main3 a,
+.main3 a img{
+	margin: 0 2%;
+	height: 80px;
+	width: auto;
+}
+
+/*------ GALLERY -------------------------------*/
+.mediabig{
+    width: 92%;
+    background-color: #fbf8f0;
+    float: left;
+    margin-left: 2%;
+    border: 2px dotted #d9d9d9;
+    text-align: center;
+    padding: 15px;
+    color: #555;
+    font-family: 'elegance';
+    position: relative;
+}
+.mediabig h2{
+    margin-bottom: 10px;
+}
+.cropper{
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+    float: left;
+    margin: 1px;
+    margin-left: 7px;
+}
+.cropper img{
+    width: 100%;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    cursor: pointer;
+    background-color: white;
+}
+.cropper img:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.theater{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    padding-top: 50px;
+    text-align: center;
+}
+.theater img{
+    cursor: pointer;
+}
+.view{
+    width: 80%;
+}
+.x{
+    margin-bottom: 30px;
+    position: static;
+    width: 150px;
+    z-index: 10;
+}
+.facebook{
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    width: 35px;
+}
+.matricom{
+    position: absolute;
+    top: 22px;
+    right: 60px;
+    width: 35px;
+}
+.contatti{
+    margin: 0 auto;
+    width: 65%;
+    background-color: #fbf8f0;
+    border: 2px dotted #d9d9d9;
+    text-align: center;
+    padding: 15px;
+    color: #555;
+    font-family: 'elegance';
+    position: relative;
+    font-size: 24pt;
+}
+.contatti a{
+    color: black;
+    text-decoration: underline;
+}
+.video{
+    width: 806px;
+    height: 448px;
+}
